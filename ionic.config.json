@@ -1,0 +1,7 @@
+{
+  "name": "finnazz_web-APP",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
