@@ -21,7 +21,7 @@ const routes: Routes = [
       },
       {
         path: 'createCliente',
-        loadChildren: () => import('../create-client/create-client.module').then(m => m.CreateClientComponentModule)
+        loadChildren: () => import('../../client/create-client/create-client.module').then(m => m.CreateClientComponentModule)
       },
       {
         path: '',
